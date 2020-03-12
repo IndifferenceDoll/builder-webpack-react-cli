@@ -8,6 +8,6 @@ describe('webpack.base.js test case', () => {
   // console.log('--------------------------------------------------------------------------------');
 
   it('entry', () => {
-    assert.equal(baseConfig.entry.index.indexof('uilder-webpack-react-cli/test/smoke/template/src/index.js') > -1, true);
+    assert.equal(baseConfig.entry.index.indexOf('uilder-webpack-react-cli/test/smoke/template/src/index.js') > -1, true);
   });
 });
